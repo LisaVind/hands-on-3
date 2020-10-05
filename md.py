@@ -11,7 +11,7 @@ def calcenergy(atoms):
     """Function to print the potential, kinetic and total energy."""
     epot = atoms.get_potential_energy() / len(atoms)
     ekin = atoms.get_kinetic_energy() / len(atoms)
-    return epot
+    return epot, ekin
 
 
 
